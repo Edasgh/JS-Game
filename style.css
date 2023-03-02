@@ -2,7 +2,7 @@ body{
     margin: 0;
  padding: 0;
  box-sizing: border-box;
- background:linear-gradient(to right,rgb(22, 22, 251),pink,rgb(161, 64, 251));
+ background:linear-gradient(to right,rgb(20, 20, 222),rgb(222, 169, 178),rgb(145, 58, 226));
  font-family: sans-serif;
 
 }
