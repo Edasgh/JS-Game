@@ -61,10 +61,12 @@ const compareGuess = () => {
         gameHead.innerHTML = `You loose !! the correct number was ${computerGuess}`;
         music3.play();
         gameInput.value = "";
+        startNewGame();
       } else if (userNum < computerGuess) {
         gameHead.innerHTML = `You loose !! the correct number was ${computerGuess}`;
         music3.play();
         gameInput.value = "";
+        startNewGame();
       } else {
         // userNum.style.color="green";
         gameHead.innerHTML = `Yep !! it's ${userNum} &#128512;`;
