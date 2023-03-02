@@ -2,7 +2,7 @@ body{
     margin: 0;
  padding: 0;
  box-sizing: border-box;
- background-color:rgb(222, 20, 201);
+ background:linear-gradient(to right,rgb(22, 22, 251),pink,rgb(161, 64, 251));
  font-family: sans-serif;
 
 }
@@ -16,12 +16,12 @@ h1{
     margin:0;
 }
 h2{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     text-shadow: 1px 1px rgb(232, 232, 234);
 }
 h3{
-    font-size: .99rem;
+    font-size: 1rem;
 }
 .container,.buttons{
     padding:.88rem;
@@ -30,7 +30,7 @@ h3{
     align-items: center;
 }
 .buttons button{
-    font-size: .9rem;
+    font-size: 1rem;
     color:rgb(255, 255, 255);
 }
 button{
@@ -96,7 +96,7 @@ button{
     width:100%;
 }
 .newGame{
-    font-size: .9rem;
+    font-size: 1rem;
     padding: 1rem;
     color:white;
     /* background-color: blueviolet; */
@@ -104,7 +104,7 @@ button{
     box-shadow: 15.8975px 26.4579px 61.7333px rgb(49 13 2 / 38%), inset -6.39433px -10.642px 12.4153px #90079a, inset 6.39433px 10.642px 12.4153px #f70eff;
 }
 .enter{
-    font-size: .9rem;
+    font-size: .99rem;
     padding: 1rem;
     color:white;
     /* background-color: blueviolet; */
@@ -121,18 +121,18 @@ button{
 
 #guessinput{
     padding:.6rem 1rem;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .guesses{
     color:red;
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 
 .attempts{
     color:blue;
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 }
@@ -141,10 +141,10 @@ button{
         font-size: 2rem;
     }
     h2{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .card{
         width:50%;
@@ -153,13 +153,13 @@ button{
         width:50%;
     }
     .buttons button{
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
     .guesses,.attempts{
-        font-size: .95rem;
+        font-size: 1rem;
     }
     #guessinput{
-        font-size: 1.1rem;
+        font-size: 1.14rem;
     }
     .newGame,.enter{
         font-size: 1rem;
