@@ -1,5 +1,5 @@
 # guess-the-number-game
-
+(enter button disabled on last commit)
 Guess the number game by using pure html , css and js..
 
 
