@@ -4,6 +4,7 @@ const startpage = document.querySelector(".card");
 const newGmbtn = document.querySelector(".newGame");
 const gameHead = document.getElementById("guHeader");
 const gameInput = document.getElementById("guessinput");
+const entBtn=document.querySelector(".enter")
 let userGuess = [];
 let music1 = new Audio("./sounds/music1.wav");
 let music2 = new Audio("./sounds/music2.wav");
@@ -33,6 +34,7 @@ const startNewGame = () => {
   });
 
   gameInput.setAttribute("disabled", true);
+  entBtn.setAttribute("disabled",true);
 };
 
 const compareGuess = () => {
