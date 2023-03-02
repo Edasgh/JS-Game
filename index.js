@@ -15,7 +15,6 @@ window.onload = function () {
 };
 const init = () => {
   computerGuess = Math.floor(Math.random() * 100);
-  // console.log(computerGuess);
   gameArea.style.display = "none";
 };
 
